@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background: Silver;
+}
+
+header {
+    background: yellow;
+    height: 50px;
+    
+}
+
+article {
+    background: blue;
+    font-family: Verdana;
+    color: white;
+}
+
+nav {
+    background:  white;
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+
+
+
+footer {
+    clear: right;
+    background: yellow;
+    height: 50px;
+}

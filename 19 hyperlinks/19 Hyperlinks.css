@@ -1,0 +1,21 @@
+a:link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: lightsalmon;
+    width: 150px;
+    line-height: 30px;
+    border-radius: 20px 0px 20px 0px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: maroon;
+    color: red;
+}
+
+a:visited {
+    background-color: darkblue;
+    color: red;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex; /*DEFAUlT*/
+    flex-direction: row;
+    flex: 1; /*flex-grow, flex-shrink, flex-base*/
+    align-items: stretch;
+    
+}    
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    flex: 2; /*zorgt dat secttion 2x zo groot is als aside */
+    padding 2px;
+    background: #f2f2f2;
+}
+aside {
+    flex:1; /*zorgt dat section 2x zo groot is als aside*/
+    padding:20px;
+    background: #ddd;
+}
+
+@media screen and (max-width:768px){
+    main {
+         flex-direction:column;
+    } 
+}

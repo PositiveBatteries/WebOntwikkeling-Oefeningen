@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font: Tahoma;
+    margin: 0;
+}
+
+
+header {
+    background: #9E8FB2;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background: #011627;
+    color: #FFF;
+    display: flex;
+}
+
+nav a:hover {
+    background: #A7ACD9;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    padding: 20px;
+}
+
+aside {
+    background: #D2CEC6;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+}
+
+footer {
+    background: #011627;
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+#Boerderij-foto {
+    width: 75%;
+}
+
+@media screen and (max-width:768px){
+  

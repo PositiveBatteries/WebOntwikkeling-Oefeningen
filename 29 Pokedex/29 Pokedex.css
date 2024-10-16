@@ -1,0 +1,53 @@
+main {
+    text-align: center;
+    background-color: #e5e5e5;
+    width: 950px;
+    display: flex;
+    border: 1px solid darkgray;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background: white;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-content: center;
+}
+
+.top-left {
+    height: 70%;
+}
+
+.top-left img {
+    height: 100%;
+}
+
+.bottom-left {
+    height: 30%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-right {
+    align-content: flex-start;
+}
+
+.bottom-right {
+    align-content: flex-end;
+}

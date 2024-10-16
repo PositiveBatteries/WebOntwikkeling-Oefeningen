@@ -1,0 +1,37 @@
+section {
+     background: #f1f1f1;
+     padding: 20px;
+     margin: 10px;
+     font-size: 30pt;
+}
+
+div {
+    background: blue;
+    margin 10px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    
+}
+
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}

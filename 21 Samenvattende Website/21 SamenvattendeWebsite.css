@@ -14,12 +14,14 @@ nav {
     float: left;
     width: 33%;
     background-color: lightblue;
-    height: 25px;
+    height: 40px;
     text-align: center;
     border-bottom: 6px solid blue;
     border-top: 3px solid blue;
     font-size: 25px;
     text-decoration: none;
+    align-content: center;
+    ;font-family: Arial, Helvetica, sans-serif;
 }
 img {
     width: 100%;
@@ -36,9 +38,11 @@ footer {
     float: right;
     width: 100%;
     text-align: right;
+    align-content: center;
     color: blue;
     height: 30px;
     margin-top: 5px;
+    padding: 5px;
 }
 h1 {
     text-align: center;
